@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,700;1,700&family=Prompt:wght@300&family=Tilt+Neon&display=swap');
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tilt Neon', DM Serif Display;
+}
+
+
+.main-container {
+    position: relative;
+    top: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 70vh;
+    border: 4px solid #0b777c;
+    border-radius: 10px;
+}
+
+.input-div {
+    width: 50%;
+    height: 50%;
+}
+
+label {
+    color: #007b83;
+    position: relative;
+    right: 79px;
+   
+  
+}
+
+
+
+.heading {
+    position: absolute;
+    top: 12px;
+    left: 40px;
+ 
+}
+
+.input-group {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 22px;
+}
+
+.conversion-div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 22px;
+}
+
+.convertBt {
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #007b83;
+    padding: 5px;
+    width: fit-content;
+    color: white;
+     font-family: 'Tilt Neon', DM Serif Display;
+
+}
+
+.output-div {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: #007b83;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.result-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.result {
+    font-size: 2rem;
+ 
+}
+
+
+
+#inputDegree {
+    width: 200px;
+    height: 26px
+}
+
+#selectInputDegreeType {
+    height: 30px
+}
+
+#selectConversionType {
+    width: 250px;
+    height: 30px;
+}
+
+
+
+@media only screen and (max-width: 361px) {
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .body-container {
+        display: grid;
+        justify-content: center;
+    }
+
+    .main-container {
+        display: grid;
+        width: 70vw;
+        height: 70vh;
+
+    }
+
+
+    #inputDegree {
+        width: 416px;
+        height: 26px
+    }
+
+    #selectInputDegreeType {
+        height: 30px
+    }
+
+    #selectConversionType {
+        width: 212px;
+        height: 30px;
+    }
+
+    .convertBt {
+        margin-bottom: 30px;
+
+
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 882px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .body-container {
+        display: grid;
+        justify-content: center;
+    }
+
+    .main-container {
+        display: grid;
+        width: 70vw;
+        height: 70vh;
+
+    }
+
+    #inputDegree {
+        width: 416px;
+        height: 26px
+    }
+
+    #selectInputDegreeType {
+        height: 30px
+    }
+
+    #selectConversionType {
+        width: 212px;
+        height: 30px;
+    }
+
+    .convertBt {
+        margin-bottom: 30px;
+
+
+    }
+
+    .output-div {
+        width: 70vw;
+
+
+    }
+
+
+    .result {
+        font-size: 1rem;
+    }
+}
